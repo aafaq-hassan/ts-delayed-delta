@@ -5,9 +5,9 @@ Gem::Specification.new do |s|
   s.name        = 'ts-delayed-delta'
   s.version     = '2.0.0'
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Pat Allan']
-  s.email       = ['pat@freelancing-gods.com']
-  s.homepage    = 'http://github.com/pat/ts-delayed-delta'
+  s.authors     = ['Aafaq Hassan']
+  s.email       = ['aafaqhassan@gmail.com']
+  s.homepage    = 'http://github.com/aafaq-hassan/ts-delayed-delta'
   s.summary     = %q{Thinking Sphinx - Delayed Deltas}
   s.description = %q{Manage delta indexes via Delayed Job for Thinking Sphinx}
 
