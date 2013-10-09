@@ -21,8 +21,7 @@ class ThinkingSphinx::Deltas::DelayedDelta <
 
   def self.cancel_jobs
     Delayed::Job.delete_all(
-      "handler LIKE '--- !ruby/object:ThinkingSphinx::Deltas::%'",
-      :conditions => {:locked_at => nil, :locked_by => nil, :failed_at => nil}
+      "handler LIKE '--- !ruby/object:ThinkingSphinx::Deltas::%'"
     )
   end
 
